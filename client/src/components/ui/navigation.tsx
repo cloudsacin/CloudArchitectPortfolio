@@ -37,7 +37,7 @@ export default function Navigation() {
       isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-white/95 backdrop-blur-sm'
     } border-b border-gray-200`}>
       <div className="container mx-auto px-4 py-4">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center text-[#141413]">
           <div className="text-2xl font-bold text-primary">Sachin Kumar Jha</div>
           
           {/* Desktop Navigation */}
