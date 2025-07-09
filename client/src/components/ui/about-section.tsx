@@ -30,29 +30,29 @@ export default function AboutSection() {
             <div className="w-24 h-1 bg-accent mx-auto mb-6"></div>
           </div>
           
-          <Card className="bg-surface-custom shadow-lg">
+          <Card className="bg-white shadow-xl border-0">
             <CardContent className="p-8">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <h3 className="text-2xl font-semibold text-primary mb-4">Cloud Architecture Expert</h3>
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                  <p className="text-gray-700 mb-6 leading-relaxed text-lg">
                     As a Senior Cloud Architect at Celebal Technologies with 4+ years of experience, I specialize in designing, implementing, and managing cloud infrastructure. My expertise spans across Azure, AWS, and GCP platforms, helping businesses optimize their cloud journey.
                   </p>
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                  <p className="text-gray-700 mb-6 leading-relaxed text-lg">
                     I'm passionate about staying current with the latest cloud technologies and providing customized solutions that align with each client's unique business objectives. My role involves bridging the gap between technical and non-technical stakeholders.
                   </p>
                 </div>
                 <div>
-                  <Card className="bg-white shadow-md">
+                  <Card className="bg-gradient-to-br from-accent/5 to-accent/10 shadow-lg border-accent/20">
                     <CardContent className="p-6">
                       <h4 className="text-lg font-semibold text-primary mb-4">Key Specializations</h4>
                       <div className="space-y-3">
                         {specializations.map((spec, index) => (
-                          <div key={index} className="flex items-center">
+                          <div key={index} className="flex items-center bg-white/60 p-3 rounded-lg">
                             <div className="text-accent mr-3">
                               {spec.icon}
                             </div>
-                            <span className="text-gray-700">{spec.title}</span>
+                            <span className="text-gray-800 font-medium">{spec.title}</span>
                           </div>
                         ))}
                       </div>

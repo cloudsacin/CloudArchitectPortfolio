@@ -20,7 +20,7 @@ export default function ExpertiseSection() {
     "BCDR Solutions",
     "Azure Kubernetes Service",
     "Infrastructure Automation",
-    "OpenAI & AVS"
+    "AI/ML Integration"
   ];
 
   return (

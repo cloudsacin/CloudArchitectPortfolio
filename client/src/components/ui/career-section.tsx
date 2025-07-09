@@ -68,14 +68,14 @@ export default function CareerSection() {
                   <div className={`flex-shrink-0 w-16 h-16 ${step.color} rounded-full flex items-center justify-center shadow-lg text-white`}>
                     {step.icon}
                   </div>
-                  <Card className="ml-6 bg-white shadow-md flex-1 hover:shadow-lg transition-shadow">
+                  <Card className="ml-6 bg-white shadow-lg flex-1 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-l-4 border-accent">
                     <CardContent className="p-6">
-                      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+                      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3">
                         <h3 className="text-xl font-semibold text-primary">{step.title}</h3>
-                        <span className="text-sm text-gray-500 mt-1 sm:mt-0">{step.duration}</span>
+                        <span className="text-sm text-gray-500 mt-1 sm:mt-0 bg-gray-100 px-3 py-1 rounded-full font-medium">{step.duration}</span>
                       </div>
-                      <p className="text-accent font-medium mb-2">{step.company} • {step.location}</p>
-                      <p className="text-gray-600 leading-relaxed">{step.description}</p>
+                      <p className="text-accent font-semibold mb-3">{step.company} • {step.location}</p>
+                      <p className="text-gray-700 leading-relaxed">{step.description}</p>
                     </CardContent>
                   </Card>
                 </div>

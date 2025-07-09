@@ -26,14 +26,14 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 onClick={handleContactClick}
-                className="bg-accent hover:bg-accent/90 text-white px-8 py-3 text-center font-medium"
+                className="bg-accent hover:bg-accent/90 text-white px-8 py-3 text-center font-medium shadow-lg"
               >
                 View Projects
               </Button>
               <Button 
                 variant="outline"
                 onClick={handleContactClick}
-                className="border-2 border-accent text-accent hover:bg-accent hover:text-white px-8 py-3 text-center font-medium"
+                className="border-2 border-accent text-accent hover:bg-accent hover:text-white px-8 py-3 text-center font-medium bg-white/80 backdrop-blur-sm shadow-lg"
               >
                 Available for Projects
               </Button>

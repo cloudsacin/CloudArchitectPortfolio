@@ -7,18 +7,18 @@ export default function ContactSection() {
     {
       icon: <MapPin className="w-8 h-8" />,
       title: "Location",
-      content: "Houston, Texas, United States"
+      content: "Houston, Texas, United States",
     },
     {
       icon: <Building className="w-8 h-8" />,
       title: "Company",
-      content: "Celebal Technologies"
+      content: "Celebal Technologies",
     },
     {
       icon: <Award className="w-8 h-8" />,
       title: "Certifications",
-      content: "7x Azure | 2x AWS | 1x GCP"
-    }
+      content: "7x Azure | 2x AWS | 1x GCP",
+    },
   ];
 
   return (
@@ -27,31 +27,37 @@ export default function ContactSection() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
           <p className="text-xl text-gray-300 mb-12">
-            Ready to transform your cloud infrastructure? Let's discuss your project.
+            Ready to transform your cloud infrastructure? Let's discuss your
+            project.
           </p>
-          
+
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             {contactInfo.map((info, index) => (
-              <Card key={index} className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20 transition-colors">
+              <Card
+                key={index}
+                className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20 transition-colors"
+              >
                 <CardContent className="p-6 text-center">
                   <div className="text-accent mb-3 flex justify-center">
                     {info.icon}
                   </div>
-                  <h3 className="text-lg font-semibold mb-2 text-white">{info.title}</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-white">
+                    {info.title}
+                  </h3>
                   <p className="text-gray-300">{info.content}</p>
                 </CardContent>
               </Card>
             ))}
           </div>
-          
+
           <div className="flex flex-col sm:flex-row justify-center gap-6">
-            <Button 
+            <Button
               asChild
-              className="bg-accent hover:bg-accent/90 text-white px-8 py-3 font-medium"
+              className="bg-accent hover:bg-accent/90 text-white px-8 py-3 font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
             >
-              <a 
-                href="https://linkedin.com/in/sachinjha" 
-                target="_blank" 
+              <a
+                href="https://www.linkedin.com/in/sachin-kumar-jha-746005161/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center"
               >
@@ -60,13 +66,13 @@ export default function ContactSection() {
                 <ExternalLink className="w-4 h-4 ml-2" />
               </a>
             </Button>
-            <Button 
+            <Button
               variant="outline"
               asChild
-              className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-3 font-medium"
+              className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-3 font-medium bg-white/10 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
             >
-              <a 
-                href="mailto:sachin@celebaltech.com"
+              <a
+                href="mailto:sachin.jha@celebaltech.com"
                 className="inline-flex items-center"
               >
                 <Mail className="w-4 h-4 mr-2" />

@@ -58,15 +58,15 @@ export default function ServicesSection() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <Card key={index} className={`${service.gradient} border hover:shadow-lg transition-shadow`}>
+              <Card key={index} className={`${service.gradient} border hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1`}>
                 <CardContent className="p-6">
                   <div className="text-center mb-4">
                     <div className={`${service.iconColor} mb-3 flex justify-center`}>
                       {service.icon}
                     </div>
-                    <h3 className="text-xl font-semibold text-primary">{service.title}</h3>
+                    <h3 className="text-xl font-semibold text-primary mb-3">{service.title}</h3>
                   </div>
-                  <p className="text-gray-700 text-center leading-relaxed">
+                  <p className="text-gray-800 text-center leading-relaxed font-medium">
                     {service.description}
                   </p>
                 </CardContent>
