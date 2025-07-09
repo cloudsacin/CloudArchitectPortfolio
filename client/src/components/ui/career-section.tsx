@@ -51,11 +51,11 @@ export default function CareerSection() {
   ];
 
   return (
-    <section id="journey" className="py-16 bg-surface-custom">
+    <section id="journey" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Career Journey</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Career Journey</h2>
             <div className="w-24 h-1 bg-accent mx-auto mb-6"></div>
           </div>
           

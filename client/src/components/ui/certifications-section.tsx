@@ -63,11 +63,11 @@ export default function CertificationsSection() {
   ];
 
   return (
-    <section id="certifications" className="py-16 bg-white">
+    <section id="certifications" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
               Certifications & Credentials
             </h2>
             <div className="w-24 h-1 bg-accent mx-auto mb-6"></div>
@@ -111,8 +111,8 @@ export default function CertificationsSection() {
           </div>
 
           <div className="text-center mt-12">
-            <div className="bg-surface-custom rounded-lg p-6 mb-6">
-              <p className="text-gray-700 text-lg mb-4 font-medium">
+            <div className="bg-white rounded-lg p-6 mb-6 shadow-lg border-l-4 border-l-accent">
+              <p className="text-gray-800 text-lg mb-4 font-semibold">
                 Total Certifications: 7x Azure | 2x AWS | 1x GCP | Multiple
                 Specialized Certifications
               </p>
@@ -120,7 +120,7 @@ export default function CertificationsSection() {
                 href="https://www.linkedin.com/in/sachin-kumar-jha-746005161/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-accent hover:text-accent/80 font-medium text-lg transition-colors"
+                className="inline-flex items-center text-accent hover:text-accent/80 font-medium text-lg transition-colors bg-accent/10 px-4 py-2 rounded-lg hover:bg-accent/20"
               >
                 <i className="fab fa-linkedin mr-2"></i>
                 View All Certifications on LinkedIn
