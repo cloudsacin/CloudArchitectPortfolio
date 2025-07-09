@@ -1,0 +1,142 @@
+I want to make my portfolio website which i can put in front section of my LinkedIn like visit my portfolio. This portfolio should tell everyone about my proffesion , skill sets. Take the context from below:
+
+As a Cloud Architect with 4+ years of experience, I help businesses unlock the full potential of cloud technology. My expertise includes designing, implementing, and managing cloud infrastructure, as well as cloud migration and cost optimization.
+
+I am passionate about staying up-to-date with the latest cloud technologies and trends, and providing customized solutions that align with each client's unique needs and goals.
+
+At Celebal I work closely with clients to understand their business objectives and challenges, and I develop tailored cloud strategies that deliver measurable results. I'm particularly skilled at bridging the gap between technical and non-technical stakeholders, ensuring clear communication and collaboration throughout every project.
+
+Sachin Kumar Jha • He/Him
+7x Azure | 2x AWS | 1x GCP | Senior Cloud Architect at Celebal Tech | MCT| DC & DB
+Migration Practice Lead | BCDR | DPI | Automation | Databricks | Microsoft Purview | Enterprise
+Landing Zone | AKS | Open Al | AVS | OCI
+Celebal Technologies
+Houston, Texas, United States
+
+Celebal Technologies
+Full-time • 4 yrs 9 mos
+Senior Cloud Architect
+Apr 2025 - Present • 3 mos Houston, Texas, United States
+Cloud Architect
+Apr 2024 - Apr 2025 • 1 yr 1 mo Jaipur, Rajasthan, India
+Cloud Consultant
+Apr 2023 - Mar 2024 • 1 yr Jaipur, Rajasthan, India • On-site
+Cloud Engineer
+Apr 2022 - Mar 2023 • 1 yr Jaipur, Rajasthan, India • On-site
+Associate Cloud Engineer
+Oct 2020 - Mar 2022 • 1 yr 6 mos Jaipur, Rajasthan, India
+
+AWS Certified Solutions Architect
+
+Professional
+Amazon Web Services (AWS)
+Issued Mar 2025 • Expires Mar 2028
+Show credential &
+50›
+J
+Professional Cloud Architect
+Certification
+Google
+Issued Jan 2025 • Expires Jan 2027
+Show credential
+凹
+Sachin Jha
+Google Cloud Certified
+Professional Cloud Architect
+GCP-Proffesional Architect
+Certification.png
+In
+AWS Well-Architected Framework:
+Reliability Pillar
+LinkedIn
+Issued Dec 2024
+Show credential C
+in
+Skills: Amazon Web Services (AWS)
+Cloud Architecture:
+Design Decisions
+LinkedIn
+Issued Dec 2024
+Show credential &
+
+G
+Licenses & certifications
+Google Analytics Certification
+Google
+Issued Dec 2024
+Credential ID 126458826
+Google Analytics
+Certification
+coursera
+DeepLearning Certified Al for Everyone
+Coursera
+Issued Jul 2024
+coursera
+Microsoft Certified Azure
+Databricks for Data Engineering
+Coursera
+Issued Nov 2023
+coursera
+Google Cloud Certified
+Introduction to Generative Al
+Coursera
+Issued Oct 2023
+Microsoft Certified: Security, Compliance, and Identity Fundamentals
+Microsoft
+Issued Nov 2022
+Credential ID 1475-9387
+Show credential C
+Microsoft Certified: Azure
+
+Microsoft Certified: Azure
+Security Engineer Associate
+Microsoft
+Issued Feb 2022
+Credential ID 1141-0167
+Show credential &
+Microsoft Certified Trainer (MCT)
+Microsoft
+Issued Aug 2021
+Credential ID H920-2594
+Show credential &
+Microsoft Certified Azure
+Fundamentals
+Microsoft
+Issued Dec 2020
+Credential ID H613-0661
+Show credential C
+aws
+AWS Certified Solutions Architect
+
+Associate
+Amazon Web Services (AWS)
+Issued Feb 2022 • Expired Feb 2025
+Microsoft Certified: Azure
+Network Engineer Associate
+Microsoft
+Issued Jul 2022 • Expired Jul 2024
+Credential ID 1346-4693
+Show credential C
+50›
+
+Microsoft Certified: Azure Solutions Architect Expert
+Microsoft
+Issued Apr 2021 • Expired Apr 2024
+Credential ID H767-5379
+Show credential &
+Microsoft Certified: Azure
+Administrator Associate
+Microsoft
+Issued Mar 2021 • Expired Mar 2024
+Credential ID H725-2826
+Show credential &
+coursera
+GCP Fundamentals
+Coursera
+coursera
+Industrial IOT in GCP
+Coursera
+coursera
+Machine Learning for Business
+
+Using the above info make it so amazing and proffesional that people who visit this on LinkedIn can better get who i am and what i do so that they can impress with my portfolio
