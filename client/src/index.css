@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(15, 23%, 12%);
+  --muted: hsl(210, 40%, 98%);
+  --muted-foreground: hsl(215, 16%, 47%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(15, 23%, 12%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(15, 23%, 12%);
+  --border: hsl(214, 32%, 91%);
+  --input: hsl(214, 32%, 91%);
+  --primary: hsl(215, 28%, 17%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(210, 40%, 96%);
+  --secondary-foreground: hsl(215, 25%, 27%);
+  --accent: hsl(217, 91%, 60%);
+  --accent-foreground: hsl(210, 40%, 98%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(215, 28%, 17%);
+  --radius: 0.5rem;
+  
+  /* Custom portfolio colors */
+  --surface: hsl(210, 40%, 98%);
+  --text-primary: hsl(215, 28%, 17%);
+  --text-secondary: hsl(215, 16%, 47%);
+  --gradient-blue: hsl(217, 91%, 60%);
+  --gradient-indigo: hsl(239, 84%, 67%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(0, 0%, 98%);
+  --primary-foreground: hsl(240, 5.9%, 10%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(217, 91%, 60%);
+  --accent-foreground: hsl(210, 40%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 85.7%, 97.3%);
+  --ring: hsl(240, 4.9%, 83.9%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-inter antialiased bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .gradient-background {
+    background: linear-gradient(135deg, hsl(210, 40%, 98%) 0%, hsl(217, 91%, 95%) 100%);
+  }
+  
+  .text-primary-custom {
+    color: var(--text-primary);
+  }
+  
+  .text-secondary-custom {
+    color: var(--text-secondary);
+  }
+  
+  .bg-surface-custom {
+    background-color: var(--surface);
+  }
+  
+  .section-padding {
+    @apply py-16 px-4;
+  }
+  
+  .container-custom {
+    @apply container mx-auto max-w-6xl;
+  }
+  
+  .card-gradient {
+    background: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(210, 40%, 98%) 100%);
+  }
+  
+  .hero-gradient {
+    background: linear-gradient(135deg, hsl(210, 40%, 98%) 0%, hsl(217, 91%, 95%) 100%);
+  }
+  
+  .timeline-line {
+    @apply absolute left-8 top-0 bottom-0 w-0.5 bg-accent;
+  }
+}
+
+@layer utilities {
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+}
