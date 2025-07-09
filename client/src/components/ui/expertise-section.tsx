@@ -4,23 +4,21 @@ import { Badge } from "@/components/ui/badge";
 
 export default function ExpertiseSection() {
   const cloudPlatforms = [
-    { name: "Microsoft Azure", certifications: "7x Certified", color: "bg-blue-100 text-blue-800" },
-    { name: "Amazon Web Services", certifications: "2x Certified", color: "bg-orange-100 text-orange-800" },
-    { name: "Google Cloud Platform", certifications: "1x Certified", color: "bg-green-100 text-green-800" }
+    { name: "Microsoft Azure", percentage: 95, color: "bg-blue-500" },
+    { name: "Amazon AWS", percentage: 85, color: "bg-orange-500" },
+    { name: "Google Cloud Platform", percentage: 80, color: "bg-green-500" }
   ];
 
   const coreTechnologies = [
-    "Cloud Migration",
-    "Data Platform Implementation", 
-    "Cloud Security Solutions",
-    "Enterprise Landing Zone"
+    { name: "Cloud Migration", percentage: 90, color: "bg-blue-500" },
+    { name: "Data Platform Implementation", percentage: 85, color: "bg-purple-500" },
+    { name: "Cloud Security Solutions", percentage: 80, color: "bg-red-500" }
   ];
 
   const specializedSkills = [
-    "BCDR Solutions",
-    "Azure Kubernetes Service",
-    "Infrastructure Automation",
-    "AI/ML Integration"
+    { name: "BCDR & Migration", percentage: 95, color: "bg-green-500" },
+    { name: "Automation & DPI", percentage: 90, color: "bg-indigo-500" },
+    { name: "Enterprise Landing Zone", percentage: 85, color: "bg-teal-500" }
   ];
 
   return (
@@ -40,13 +38,19 @@ export default function ExpertiseSection() {
                   <Cloud className="w-12 h-12 text-accent mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-primary">Cloud Platforms</h3>
                 </div>
-                <div className="space-y-3">
+                <div className="space-y-4">
                   {cloudPlatforms.map((platform, index) => (
-                    <div key={index} className="flex items-center justify-between">
-                      <span className="text-gray-700 font-medium">{platform.name}</span>
-                      <Badge className={`text-xs ${platform.color}`}>
-                        {platform.certifications}
-                      </Badge>
+                    <div key={index} className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-700 font-medium">{platform.name}</span>
+                        <span className="text-sm font-semibold text-gray-600">{platform.percentage}%</span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2">
+                        <div 
+                          className={`h-2 rounded-full ${platform.color}`}
+                          style={{ width: `${platform.percentage}%` }}
+                        ></div>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -60,10 +64,19 @@ export default function ExpertiseSection() {
                   <ServerCog className="w-12 h-12 text-accent mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-primary">Core Technologies</h3>
                 </div>
-                <div className="space-y-3">
+                <div className="space-y-4">
                   {coreTechnologies.map((tech, index) => (
-                    <div key={index} className="bg-gray-50 rounded-lg p-3 text-center">
-                      <span className="text-gray-700 font-medium">{tech}</span>
+                    <div key={index} className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-700 font-medium">{tech.name}</span>
+                        <span className="text-sm font-semibold text-gray-600">{tech.percentage}%</span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2">
+                        <div 
+                          className={`h-2 rounded-full ${tech.color}`}
+                          style={{ width: `${tech.percentage}%` }}
+                        ></div>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -77,10 +90,19 @@ export default function ExpertiseSection() {
                   <Wrench className="w-12 h-12 text-accent mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-primary">Specialized Skills</h3>
                 </div>
-                <div className="space-y-3">
+                <div className="space-y-4">
                   {specializedSkills.map((skill, index) => (
-                    <div key={index} className="bg-gray-50 rounded-lg p-3 text-center">
-                      <span className="text-gray-700 font-medium">{skill}</span>
+                    <div key={index} className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-700 font-medium">{skill.name}</span>
+                        <span className="text-sm font-semibold text-gray-600">{skill.percentage}%</span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2">
+                        <div 
+                          className={`h-2 rounded-full ${skill.color}`}
+                          style={{ width: `${skill.percentage}%` }}
+                        ></div>
+                      </div>
                     </div>
                   ))}
                 </div>
